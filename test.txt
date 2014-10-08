@@ -1803,45 +1803,47 @@ kernel32.GetProcAddress
 			ntdll.RtlImageDirectoryEntryToData
 			ntdll.RtlLeaveCriticalSection
 kernel32.GetCurrentProcess
-			kernel32.GetProcAddress
+	 Did not find kernel32.GetCurrentProcess at line 8
+...Moving on file1 at line 9 and file2 at line 1806
 			ntdll.RtlInitString
 			ntdll.LdrGetProcedureAddress
 			ntdll.RtlEnterCriticalSection
 			ntdll.RtlImageDirectoryEntryToData
 			ntdll.RtlLeaveCriticalSection
-			kernel32.GetProcAddress
+kernel32.GetProcAddress
 			ntdll.RtlInitString
 			ntdll.LdrGetProcedureAddress
 			ntdll.RtlEnterCriticalSection
 			ntdll.RtlEnterCriticalSection
 			ntdll.RtlImageDirectoryEntryToData
 			ntdll.RtlLeaveCriticalSection
-			kernel32.GetProcAddress
+kernel32.GetProcAddress
 			ntdll.RtlInitString
 			ntdll.LdrGetProcedureAddress
 			ntdll.RtlEnterCriticalSection
 			ntdll.RtlImageDirectoryEntryToData
 			ntdll.RtlLeaveCriticalSection
-			kernel32.GetProcAddress
+kernel32.GetProcAddress
 			ntdll.RtlInitString
 			ntdll.LdrGetProcedureAddress
 			ntdll.RtlEnterCriticalSection
 			ntdll.RtlImageDirectoryEntryToData
 			ntdll.RtlLeaveCriticalSection
-			kernel32.GetProcAddress
+kernel32.GetProcAddress
 			ntdll.RtlInitString
 			ntdll.LdrGetProcedureAddress
 			ntdll.RtlEnterCriticalSection
 			ntdll.RtlImageDirectoryEntryToData
 			ntdll.RtlLeaveCriticalSection
-			kernel32.GetProcAddress
+kernel32.GetProcAddress
 			ntdll.RtlInitString
 			ntdll.LdrGetProcedureAddress
 			ntdll.RtlEnterCriticalSection
 			ntdll.RtlImageDirectoryEntryToData
 			ntdll.RtlLeaveCriticalSection
-			kernel32.GetProcAddress
-			ntdll.RtlInitString
+kernel32.GetProcAddress
+	 Did not find kernel32.GetProcAddress at line 15
+...Moving on file1 at line 16 and file2 at line 1844
 			ntdll.LdrGetProcedureAddress
 			ntdll.RtlEnterCriticalSection
 			ntdll.RtlImageDirectoryEntryToData
@@ -1851,103 +1853,104 @@ kernel32.GetCurrentProcess
 			ntdll.RtlImageDirectoryEntryToData
 			ntdll.RtlLeaveCriticalSection
 			ntdll.RtlLeaveCriticalSection
-			kernel32.CreateFileW
-			ntdll.RtlInitUnicodeString
-			ntdll.RtlDosPathNameToNtPathName_U
-			ntdll.wcslen
-			ntdll.RtlAllocateHeap
-			ntdll.RtlAcquirePebLock
-			ntdll.RtlEnterCriticalSection
+kernel32.CreateFileW
+ntdll.RtlInitUnicodeString
+ntdll.RtlDosPathNameToNtPathName_U
+ntdll.wcslen
+ntdll.RtlAllocateHeap
+ntdll.RtlAcquirePebLock
+ntdll.RtlEnterCriticalSection
+ntdll.RtlDetermineDosPathNameType_U
 			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlEqualUnicodeString
-			ntdll.memmove
-			ntdll.memmove
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.memmove
-			ntdll.memmove
+ntdll.RtlEqualUnicodeString
+ntdll.RtlEqualUnicodeString
+ntdll.RtlEqualUnicodeString
+ntdll.memmove
+ntdll.memmove
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.memmove
+ntdll.memmove
 			ntdll.RtlReleasePebLock
 			ntdll.RtlLeaveCriticalSection
-			ntdll.KiFastSystemCall
-			ntdll.KiFastSystemCallRet
-			ntdll.RtlFreeHeap
-			ntdll.RtlGetNtGlobalFlags
-			ntdll.RtlFreeHeap
-			ntdll.RtlGetLastWin32Error
-			kernel32.CloseHandle
-			ntdll.KiFastSystemCall
-			ntdll.KiFastSystemCallRet
-			kernel32.CreateFileW
-			ntdll.RtlInitUnicodeString
+ntdll.KiFastSystemCall
+ntdll.KiFastSystemCallRet
+ntdll.RtlFreeHeap
+ntdll.RtlGetNtGlobalFlags
+ntdll.RtlFreeHeap
+ntdll.RtlGetLastWin32Error
+kernel32.CloseHandle
+ntdll.KiFastSystemCall
+ntdll.KiFastSystemCallRet
+kernel32.CreateFileW
+ntdll.RtlInitUnicodeString
 			ntdll.RtlIsDosDeviceName_U
-			ntdll.RtlInitUnicodeStringEx
-			ntdll.wcslen
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlDosPathNameToNtPathName_U
-			ntdll.wcslen
-			ntdll.RtlAllocateHeap
-			ntdll.RtlAcquirePebLock
-			ntdll.RtlEnterCriticalSection
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.RtlAcquirePebLock
-			ntdll.RtlEnterCriticalSection
+ntdll.RtlInitUnicodeStringEx
+ntdll.wcslen
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.RtlEqualUnicodeString
+ntdll.RtlEqualUnicodeString
+ntdll.RtlEqualUnicodeString
+ntdll.RtlEqualUnicodeString
+ntdll.RtlDosPathNameToNtPathName_U
+ntdll.wcslen
+ntdll.RtlAllocateHeap
+ntdll.RtlAcquirePebLock
+ntdll.RtlEnterCriticalSection
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.RtlEqualUnicodeString
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.RtlAcquirePebLock
+ntdll.RtlEnterCriticalSection
 			ntdll.RtlReleasePebLock
 			ntdll.RtlLeaveCriticalSection
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.memmove
-			ntdll.memmove
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.memmove
+ntdll.memmove
 			ntdll.RtlReleasePebLock
 			ntdll.RtlLeaveCriticalSection
-			ntdll.KiFastSystemCall
-			ntdll.KiFastSystemCallRet
-			ntdll.RtlFreeHeap
-			ntdll.RtlGetNtGlobalFlags
-			ntdll.RtlFreeHeap
+ntdll.KiFastSystemCall
+ntdll.KiFastSystemCallRet
+ntdll.RtlFreeHeap
+ntdll.RtlGetNtGlobalFlags
+ntdll.RtlFreeHeap
 			ntdll.RtlNtStatusToDosError
 			ntdll.RtlNtStatusToDosErrorNoTeb
-			kernel32.CreateFileW
-			ntdll.RtlInitUnicodeString
+kernel32.CreateFileW
+ntdll.RtlInitUnicodeString
 			ntdll.RtlIsDosDeviceName_U
-			ntdll.RtlInitUnicodeStringEx
-			ntdll.wcslen
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlDosPathNameToNtPathName_U
-			ntdll.wcslen
-			ntdll.RtlAllocateHeap
-			ntdll.RtlAcquirePebLock
-			ntdll.RtlEnterCriticalSection
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.RtlEqualUnicodeString
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.RtlAcquirePebLock
-			ntdll.RtlEnterCriticalSection
+ntdll.RtlInitUnicodeStringEx
+ntdll.wcslen
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.RtlEqualUnicodeString
+ntdll.RtlEqualUnicodeString
+ntdll.RtlEqualUnicodeString
+ntdll.RtlEqualUnicodeString
+ntdll.RtlDosPathNameToNtPathName_U
+ntdll.wcslen
+ntdll.RtlAllocateHeap
+ntdll.RtlAcquirePebLock
+ntdll.RtlEnterCriticalSection
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.RtlEqualUnicodeString
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.RtlAcquirePebLock
+ntdll.RtlEnterCriticalSection
 			ntdll.RtlReleasePebLock
 			ntdll.RtlLeaveCriticalSection
-			ntdll.RtlDetermineDosPathNameType_U
-			ntdll.memmove
-			ntdll.memmove
+ntdll.RtlDetermineDosPathNameType_U
+ntdll.memmove
+ntdll.memmove
 			ntdll.RtlReleasePebLock
 			ntdll.RtlLeaveCriticalSection
-			ntdll.KiFastSystemCall
-			ntdll.KiFastSystemCallRet
-			ntdll.RtlFreeHeap
-			ntdll.RtlGetNtGlobalFlags
-			ntdll.RtlFreeHeap
+ntdll.KiFastSystemCall
+ntdll.KiFastSystemCallRet
+ntdll.RtlFreeHeap
+ntdll.RtlGetNtGlobalFlags
+ntdll.RtlFreeHeap
 			ntdll.RtlNtStatusToDosError
 			ntdll.RtlNtStatusToDosErrorNoTeb
-			kernel32.VirtualProtect
-			kernel32.VirtualProtectEx
-			ntdll.KiFastSystemCall
-			ntdll.KiFastSystemCallRet
+kernel32.VirtualProtect
+kernel32.VirtualProtectEx
+ntdll.KiFastSystemCall
+ntdll.KiFastSystemCallRet
+
